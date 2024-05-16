@@ -386,7 +386,7 @@ t <- qt(p = 0.975, df = 100.98)
 (0 <= upper_bound) & (0 >= lower_bound)
 ```
 
-Since this has returned `FALSE`, we conclude that a mean difference of zero is outside the 95% confidence interval of our sample mean difference, and so we cannot have 95% certainty that the difference in population means is zero. We reject the null hypothesis that the mean sales of both performance levels are the same.
+Since this has returned `FALSE`, we conclude that a mean difference of zero is outside the 95% confidence interval of our sample mean difference, and so we cannot have 05% certainty that the difference in population means is zero. We reject the null hypothesis that the mean sales of both performance levels are the same.
 
 Looking at this graphically, we are assuming a $t$-distribution of the mean difference, and we are determining where zero sits in that distribution, as in Figure \@ref(fig:norm-dist).
 
